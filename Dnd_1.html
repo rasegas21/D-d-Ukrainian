@@ -1,0 +1,145 @@
+<!--HTML5-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset = "UTF-8"/>
+	<title>Dungeons & Dragons!</title>
+	<link href="Dnd_2.css" rel="stylesheet" type="text/css"/>
+	
+	<meta name="generator" content="Bluefish 2.2.11" />
+	<meta name="Site created" content="20.12.2019" />
+	<meta name="author" content="Sfipper" />
+	<meta name="Copyright" content="Dungeons & Dragons" />
+	<meta name="Replay to" content="rasegas21@gmail.com" />
+	<meta name="Owner" content="Peter"	
+	<meta name="Description" content="Dungeons and dragons game"/>
+	<meta name="Keywords" content="Dungeon, Dragons, DnD, D&D, skills, miniatures, rules" />
+	<meta name="Robots" content="index, follow" />
+	
+	<link href="сюди іконку " rel="icon" type="image/x-icon" />
+	<link href="сюди ссилку " rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<header>
+	<a href="Dnd_1.html" ><img src="Headder.png" class="hat" alt=""><a/><br/>
+	
+	<nav align="center" class="menu1">
+	<ul>
+	<li> <a class="MenuAll" href="#">Книги правил		</a> 
+		<ul>
+	<li><a href="Dnd_Dm.html" class="linkM1" >Книга ведучого</a></li>
+		<li><a href="Dnd_player.html" class="linkM1">Книга гравців</a></li>
+		<li><a href="Dnd_monster.html" class="linkM1">Бестіарій</a></li>
+		</ul>
+	</li>
+	
+	<li> <a class="MenuAll" href="#">Книги пригод		</a> 
+		<ul>
+		<li><a href="Dnd_Phandalin.html" class="linkM1">Втрачені шахти Фандаліна</a></li>
+		<li><a href="Dnd_Strad.html" class="linkM1">Прокляття Страда</a></li>
+		<li><a href="Dnd_Tyrany_of_Dragons.html" class="linkM1">Тиранія драконів</a></li>
+		</ul>
+	</li>
+	
+	<li> <a class="MenuAll" href="#">Додаткові ресурси		</a> 
+		<ul>
+		<li><a href="https://www.youtube.com/channel/UCETKVT-Uj-gAqdSTd2YNaMg" class="linkM1" target="_blank" title="Посилання веде на інший сайт!">Канал "Вечерние кости"</a></li>
+		<li><a href="https://printableheroes.com/minis" class="linkM1" target="_blank" title="Посилання веде на інший сайт!">Паперові мініатюри</a></li>
+		<li><a href="http://hardcodex.ru/" class="linkM1" target="_blank" title="Посилання веде на інший сайт!">Закляття</a></li>
+		</ul>
+	</li>
+		</ul>
+	</nav>
+</header>	
+
+<body>
+
+	</br></br></br></br></br></br></br></br>
+
+	<form>
+	<fieldset class="video">	<!--тут можна переміщати його з рамкою -->
+		<div id="ytplayer"></div>
+			<script>
+			  // Load the IFrame Player API code asynchronously.
+			  var tag = document.createElement('script');
+			  tag.src = "https://www.youtube.com/player_api";
+			  var firstScriptTag = document.getElementsByTagName('script')[0];
+			  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			  // Replace the 'ytplayer' element with an <iframe> and	
+			  // YouTube player after the API code downloads.
+			  var player;
+			  function onYouTubePlayerAPIReady() {
+			    player = new YT.Player('ytplayer', {
+			      height: '360',
+			      width: '640',
+			      videoId: '4HR3YhPJ9nE'
+			    });
+			  }
+		</script> 
+	</fieldset>
+</form>	
+	
+	<div class="print">
+	
+		
+		<p>
+		Настільні рольові ігри (до яких відноситься і Dungeons & Dragons) - це особлива категорія ігор для групи з кількох людей, 
+		заснована на зануренні в вигаданий світ і впливі на нього через опис гравцями дій керованих ними персонажів. 
+		Трохи заплутано, але все стане зрозуміліше, якщо розібрати все по порядку.</p>
+
+		<p >Настільною гра називається тому, що традиційно її учасники збираються за столом, 
+		на якому розкладаються листи персонажів, ігрові правила, а також кидаються кубики, 
+		що визначають успішність оголошеної дії. 
+		Зараз, звичайно ж, ніщо не заважає проводити ігри в онлайн-режимі, 
+		благо сервісів для цього існує з надлишком.
+
+		Рольовою вона іменується тому, що в основі гри лежить відіграш ролі. 
+		Тобто гравці діють від імені створених ними персонажів, 
+		виходячи з їх здібностей, світогляду та потреб. 
+		Які можуть і не збігатися з реальністю. 
+		Відігравати самого себе, звичайно, теж допустимо, 
+		але набридає досить швидко - як самому гравцеві, так і його товаришам.
+
+		Таким чином, настільна рольова гра складається з наступних елементів:</p>
+
+		<img class="img1" src="https://compote.slate.com/images/cc5e5a6a-1687-4811-86cf-15a64b4f5a50.jpg" alt="DELETED!" title="Процес гри в Підземелля і Дракони">
+
+		<p>Є ігровий світ, описом якого займається майстер (він же - ведучий, ГМ (Game Master) 
+		або ДМ (Dungeon Master)). Майстер також діє від імені всіх персонажів за винятком тих, 
+		якими керують гравці (зазвичай таких персонажів називають NPC - Non Player Characters).
+
+		Є гравці, які керують діями своїх персонажів. Оптимальна кількість гравців - 2-4 людини, 
+		з більшою кількістю майстру впоратися буде непросто, і кожному з учасників доведеться 
+		буквально битися за свою "хвилину слави".
+
+		І є ігрова система, яка закріплює правила і описує механіку гри. 
+		Ігрових систем існує велика кількість, і вибір конкретної залежить в основному від того, 
+		що від гри ви бажаєте отримати. Але, незалежно від системи, гра буде в усній формі 
+		- тобто всі описи, оголошення дій і оприлюднення їх результатів передаються за допомогою слів.
+ 		При бажанні можна задіяти і додаткові ресурси (мініатюри, костюми,звукові ефекти), 
+ 		але вони будуть суто допоміжними.	</p>
+		
+		</div>
+		
+	</br>
+	<!--<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4HR3YhPJ9nE"
+		 frameborder="0" allow="accelerometer; 
+		autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+ 
+</br></br></br></br>
+</body>
+<footer>
+<p class="SubText">Follow my <span><a class="sub" 
+href="https://www.instagram.com/dnd_gm/" class="sub"><img class="insta" src="insta.png" alt=""></a> 
+<span>Перегляньте сторінку на: </span> <a href="https://uk.wikipedia.org/wiki/Dungeons_%26_Dragons" class="sub"><img src="Wikipedia.png" class="Wiki" alt=""></a>
+<span>Відвідайте офіційну сторінку</span><a href="https://dnd.wizards.com/" class="sub"><img src="Dnd_of.png" class="Dnd_of" alt=""></a> </p>
+
+</footer>
+
+</html>
+
+
+
+

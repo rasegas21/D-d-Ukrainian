@@ -1,0 +1,210 @@
+body{
+	background-image: url(https://static.trade-light.ru/trade-light/images/items/1548_182_view.gif?1503264627);
+	color: black;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(Dragon.jpg);
+}
+
+.DungeonMaster{
+background-image: url(Dungeon_master.jpg);
+}
+
+.Players{
+background-image: url(Players.jpg);
+}
+
+.Monsters{
+background-image: url(Monsters.jpg);
+}
+
+.Phandalin{
+background-image: url(Phandalin.jpg);
+}
+
+.Strad{
+background-image: url(Strad.png);
+}
+
+.Tyranny{
+background-image: url(tyrannyOfDragons.jpeg);
+}
+
+.menu1{
+	background-color: black;
+	text-decoration: none;
+	text-align: center;
+	box
+}
+
+.menu1 ul li{
+	display: inline-block;
+		}
+.menu1 ul{
+	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 0%;
+	
+}
+.menu1 ul ul{
+	text-align: justify;
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 000, 000, 0.5);
+	width: 350px;
+	
+
+	
+}	
+.menu1 li:hover ul{
+	display: block;
+}
+.menu1 li:hover li{
+	display: block;
+}
+
+
+.linkM1{
+	color: whitesmoke;
+	padding-left: 10%;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 10px;
+	
+	
+	
+}	
+
+.linkM1:hover{
+	color: red;
+	background-size: cover;
+}
+.sub {
+	color: blue;
+	text-decoration: none;
+}
+
+.sub:hover{
+	color: blueviolet;
+	font-size: 10px;
+}
+
+.SubText{
+	color: red;
+	font-size: 15px;
+	text-align: center;
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: content-box;
+	margin-left: 320px;
+	margin-right: 320px;
+	opacity: 0.7;
+	
+}
+
+.print{
+	
+	color: white;
+	text-indent: 1.5em;
+	font-size: 25px;
+	margin-left: 5px;
+	margin-right: 15px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: justify;
+	background-color: black;
+	background-position: bottom;
+	opacity: 0.7;
+	z-index: inherit;
+	transition: opacity 2s;
+	border-radius: 25px;
+	
+}
+.hat{
+	color: white;
+	position: relative;
+	height: 150px;
+	opacity: 0.5;
+	text-align: left;
+	transition: opacity 2s;
+	text-decoration: none;
+}
+.hat:hover{
+	 	
+	color: red;
+	opacity: 2;
+}
+.print:hover{
+	opacity: 1;
+}
+
+.MenuAll
+{
+	color: greenyellow;
+	background-color: black;
+	text-align: justify;
+	opacity: 0.6;
+	width: 100%;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 10px;
+}
+.MenuAll:hover{
+	color: blue;
+}
+
+.video {
+	position: relative;
+	height: 360px;
+	width: 640px;
+	float: right;
+	margin-right: 20px;
+	background-color: black;
+	z-index: 1;
+	margin-left: 20px;
+
+}
+
+
+.img1{
+	position: relative;
+	z-index: 1;
+	float: left;
+	height: 400px;
+	margin-right: 20px;
+	opacity: 1;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	
+
+}
+
+.pdfDown{
+height: 80px;
+text-align: left;
+float: right;
+}
+.pdfDown:hover{
+height: 100px;
+}
+
+.insta{
+	height: 30px;
+}
+
+.Wiki{
+	height: 30px;
+}
+
+.Dnd_of{
+	height: 30px;
+}
